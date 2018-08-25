@@ -9,12 +9,12 @@
   vertical-align: baseline;
 
   &.tag-success {
-    background: $brand-success;
+    background: #AABBCC;
   }
   &.tag-default {
-    background: $gray-light;
+    background: #CCC;
   }
   &.tag-danger {
-    background: $brand-danger;
+    background: #DDFFEE;
   }
 }

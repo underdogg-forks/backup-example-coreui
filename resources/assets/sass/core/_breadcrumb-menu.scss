@@ -1,36 +1,36 @@
 .breadcrumb-menu {
   position: absolute;
   top: 0;
-  right: $breadcrumb-padding-x;
+  right: 2;
 
   &::before {
     display: none;
   }
 
   .btn {
-    padding-top: $breadcrumb-padding-y;
-    padding-bottom: $breadcrumb-padding-y;
+    padding-top: 2;
+    padding-bottom: 2;
   }
 
   .btn.btn-secondary {
-    color: $text-muted;
+    color: #CCC;
     border: 0;
 
     &:hover, &.active {
-      color: $body-color;
+      color: #FCFCFC;
       background: transparent;
     }
   }
 
   .open {
     .btn.btn-secondary {
-      color: $body-color;
+      color: #CCC;
       background: transparent;
     }
   }
 
   .dropdown-menu {
     min-width: 180px;
-    line-height: $line-height-base;
+    line-height: 15;
   }
 }

@@ -2,7 +2,7 @@
 
 $enable-sidebar-nav-rounded: false;
 
-$border-color: $gray-lighter;
+$border-color: #CCC;
 $layout-transition-speed: .25s;
 
 
@@ -72,7 +72,7 @@ $sidebar-minimized-height:          $sidebar-minimized-width;
 $sidebar-compact-width:             150px;
 $sidebar-compact-height:            $sidebar-compact-width;
 $sidebar-color:                     #fff;
-$sidebar-bg:                        $gray-dark;
+$sidebar-bg:                        #CFCFCF;
 $sidebar-header-bg:                 rgba(0,0,0,.2);
 $sidebar-footer-bg:                 rgba(0,0,0,.2);
 $sidebar-borders:                   none;
@@ -83,22 +83,22 @@ $mobile-sidebar-width:              220px;
 $sidebar-nav-color:                 #fff;
 $sidebar-nav-title-padding-y:       .75rem;
 $sidebar-nav-title-padding-x:       1rem;
-$sidebar-nav-title-color:           $gray-lighter;
+$sidebar-nav-title-color:           #CCC;
 $sidebar-nav-link-padding-y:        .75rem;
 $sidebar-nav-link-padding-x:        1rem;
 $sidebar-nav-link-color:            #fff;
 $sidebar-nav-link-bg:               transparent;
-$sidebar-nav-link-icon-color:       $text-muted;
+$sidebar-nav-link-icon-color:       #CFCFCF;
 
 $sidebar-nav-link-borders:          0;
 $sidebar-nav-link-hover-color:      #fff;
-$sidebar-nav-link-hover-bg:         $brand-primary;
+$sidebar-nav-link-hover-bg:         #000033;
 $sidebar-nav-link-hover-icon-color: #fff !important;
 
 $sidebar-nav-link-hover-borders:    0;
 $sidebar-nav-link-active-color:     #fff;
 $sidebar-nav-link-active-bg:        lighten($sidebar-bg, 5%);
-$sidebar-nav-link-active-icon-color: $brand-primary;
+$sidebar-nav-link-active-icon-color: #000033;
 
 $sidebar-nav-link-active-borders:   0;
 
@@ -109,7 +109,7 @@ $sidebar-nav-dropdown-borders:      0;
 // Top Navigation
 
 $top-nav-bg:                        #fff;
-$top-nav-color:                     $body-color;
+$top-nav-color:                     lighten($sidebar-bg, 5%);
 $top-nav-borders: (
   bottom: (
     size:                           1px,
@@ -126,9 +126,9 @@ $top-nav-ul-borders: (
 );
 
 $top-nav-hover-color:               #fff;
-$top-nav-hover-bg:                  $brand-primary;
+$top-nav-hover-bg:                  #000033;
 $top-nav-active-color:              #fff;
-$top-nav-active-bg:                 $brand-primary;
+$top-nav-active-bg:                 #000033;
 $top-nav-height:                    $navbar-height - 15px;
 
 // Breadcrumb
@@ -144,7 +144,7 @@ $breadcrumb-borders: (
 // Aside
 
 $aside-menu-width:                  250px;
-$aside-menu-color:                  $gray-dark;
+$aside-menu-color:                  #CFCFCF;
 $aside-menu-bg:                     #fff;
 $aside-menu-borders: (
   left: (
@@ -160,8 +160,8 @@ $aside-menu-nav-padding-x:          1rem;
 // Footer
 
 $footer-height: 50px;
-$footer-bg:     $gray-lightest;
-$footer-color:  $body-color;
+$footer-bg:     #CCCCFF;
+$footer-color:  lighten($sidebar-bg, 5%);
 $footer-borders: (
   top: (
     size:                           1px,
@@ -173,4 +173,4 @@ $footer-borders: (
 // Cards
 
 $card-icon-bg:                      transparent;
-$card-icon-color:                   $body-color;
+$card-icon-color:                   lighten($sidebar-bg, 5%);
